@@ -28,7 +28,7 @@
 
     @if ($message = Session::get('error'))
     <div class="alert alert-danger alert-block">
-    <button type="button" class="close" data-dismiss="alaert">x</button>
+    <button type="button" class="close" data-dismiss="alert">x</button>
     <strong>{{ $message }}</strong>
     </div>
     @endif
@@ -54,6 +54,9 @@
     </div>
     <div class="form-group">
     <input type="submit" name="login" class="btn btn-primary" value="Login" />
+    </div>
+    <div class="form-group">
+    <input type="submit" name="gitLogin" class ="btn btn-primary" value="Git Login" />
     </div>
     </form>
     </div>
